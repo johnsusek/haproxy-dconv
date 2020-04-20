@@ -6,6 +6,10 @@ the HAProxy documentation into a more generic format (example : ReStructuredText
 that would allow for an easier spreading of various output files (.pdf,
 .html, .epub, etc).
 
+# This fork
+
+This fork converts the list of keywords into a JSON array.
+
 # Documentation
 
 ## Python version and requirements
