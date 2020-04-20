@@ -1,9 +1,6 @@
 #!/bin/bash
 
-PROJECT_HOME=$(dirname $(readlink $0))
-cd $PROJECT_HOME || exit 1
-
-WORK_DIR=$PROJECT_HOME/work
+WORK_DIR=./work
 
 function on_exit()
 {
