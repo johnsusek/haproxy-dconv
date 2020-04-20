@@ -1,6 +1,6 @@
 #!/bin/bash
 
-PROJECT_HOME=$(dirname $(readlink -f $0))
+PROJECT_HOME=$(dirname $(readlink $0))
 cd $PROJECT_HOME || exit 1
 
 WORK_DIR=$PROJECT_HOME/work
